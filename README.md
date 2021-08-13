@@ -20,8 +20,8 @@ username=fakebot1
 ```
  pip3 install -r requirements.txt
 ```
-4. Lastly run the main.py file
-
+4. Change the subreddit name to the actual subreddit name in main.py
+5. Lastly run the main.py file
 ### Config File
 The bot will look at the wiki page to gets its config information. In the wiki page you can mention the usernames of account which should be shadowbanned from the modmail. It's format should be
 ```

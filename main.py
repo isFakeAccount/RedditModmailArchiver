@@ -44,7 +44,7 @@ if __name__ == '__main__':
     # Logging in reddit
     reddit = praw.Reddit('modmail_archiver_bot', user_agent=f"{platform()}:ModmailArchiver:1.0 (by /u/is_fake_Account)")
 
-    subreddit_name = 'bramptonbois'
+    subreddit_name = 'INSERT SUBREDDIT NAME HERE'
     subreddit = reddit.subreddit(subreddit_name)
     wiki_page_path = 'modmail_archiver_config'
 
